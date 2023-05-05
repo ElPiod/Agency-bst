@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* navbar */
+.navbar{
+    background-color: var(--bs-dark);
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #ffc800;
+}
+
+/* header */
+.header_wrapper{
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url(images/header-bg.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+.header_wrapper .h1 .h1_1{
+    font-size: 60px;
+}
+.header_wrapper .h2 .h2_2{
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+/* Services */
+.services_wrapper .first{
+    background-color: #ffc800;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+/* Porfolio */
+.card .hover_plus{
+    display: none;
+}
+.card:hover .hover_plus{
+    width: 100%;
+    height: 72.3%;
+    background: rgba(255, 200, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.flex2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    left: -45px;
+}
+
+/* About */
+.about_img,
+.about_img2,
+.about_img3,
+.about_img4{
+    border: 8px solid gainsboro;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background-image: url(images/1\ \(1\).jpg);
+}
+.flex4 .about_img{
+    background-image: url(images/2\ \(1\).jpg);
+    background-size: cover;
+}
+.about_img3{
+    background-image: url(images/3\ \(1\).jpg);
+    background-size: cover;
+}
+.about_img4{
+    background-image: url(images/4\ \(1\).jpg);
+    background-size: cover;
+}
+.borde_space{
+    border-left: 2px solid gainsboro;
+    height: 140px;
+    position: relative;
+    right: 118px;
+    top: 175px;
+}
+.flex3{
+    margin-left: -160px;
+}
+.flex4, .flex_3{
+    margin-top: 50px;
+}
+.flex4 .about_img, .about_img4{ 
+    margin-left: 290px;
+}
+.flex4 .borde_space1{
+    border-left: 2px solid gainsboro;
+    height: 140px;
+    position: relative;
+    right: 412px;
+    top: 175px; 
+}
+.flex4 .about_text{
+    margin-left: 0px;
+}
+.about_img5{
+    border: 8px solid gainsboro;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-left: -35px;
+    background-color: #ffc800;
+    
+}
+
+/* team */
+.circle{
+    border: 8px solid gainsboro;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.coach1{
+    background-image: url(images/team1.jpg);
+    background-size: cover;
+}
+.coach2{
+    background-image: url(images/team2.jpg);
+    background-size: cover;
+}
+.coach3{
+    background-image: url(images/team3.jpg);
+    background-size: cover;
+}
+.caracteristique{
+    position: relative;
+    left: -86px;
+}
+.col-lg-4{
+    position: relative;
+    left: 60px;
+}
+.link{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+.link:hover{
+    opacity: 0.7;
+}
+/* Entreprise */
+
+/* Contact */
+.contact{
+    background-color: rgb(33, 37, 41);
+    background-image: url(images/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+
+}
+.button .btn{
+    opacity: 0.8;
+}
+
+
+

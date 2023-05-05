@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px){
+    .navbar{
+        background-color: var(--bs-dark);
+        height: auto;
+     }
+     .flex2{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          position: relative;
+          left: 0px;
+     }
+     /* About */
+     /* flex 3 */
+     .flex3{
+          margin-left: -110px;
+     }
+     .flex3 .about_text{
+          font-size: 12px;
+     }
+     .flex3 .about_text .tete .h4{
+          font-size: 14px;
+     }
+     /* flex-4 */
+     .flex4{
+          margin-top: 110px;
+      }
+     .flex4 .about_img, .about_img4{
+          margin-left: 234px
+     }
+     .about_img5{
+          margin-left: -20px;
+     }
+     .flex4 .about_text{
+          font-size: 12px;
+     }
+     .flex4 .about_text .tete .h4{
+          font-size: 14px;
+     }
+     .flex4 .borde_space1{
+          position: relative;
+          left: -338px;
+     }
+     /* Team */
+     .teams_all{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+     }
+     .caracteristique{
+          position: relative;
+          left: 0px;
+      }
+     .col-lg-4{
+          position: relative;
+          left: 0px;
+     }
+     
+}    
+
+
+
+@media screen and (max-width: 620px){
+     /* header */
+    .flex1{
+        position: relative;
+        top: 12px;
+    }
+   .navbar{
+        background-color: var(--bs-dark);
+        height: auto;
+   }
+   .navbar-toggler{
+        margin-left: auto;
+        position: relative;
+        top: -35px;
+   }
+   /* Portfolio */
+   .flex2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        position: relative;
+        left: 0px;
+        
+   }
+   /* About */
+    .flex3{
+          display: flex;
+          flex-direction: column-reverse;
+          margin-left: 0px;
+          margin-top: -160px;
+     }
+    .flex3 .about_img{
+          margin-left: 60px;
+     }
+     .flex4{
+          margin-top: 0px;
+     }
+     .flex_3{
+          margin-top: -290px;
+     }
+     .flex4 .about_img,
+     .flex3 .about_img, 
+     .about_img3, 
+     .about_img4{
+          margin: auto
+     }
+
+     .about_img5{
+          margin: auto;
+     }
+     /* team */
+     .teams_all{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+     }
+     .caracteristique{
+          position: relative;
+          left: 0px;
+      }
+     .col-lg-4{
+          position: relative;
+          left: 0px;
+     }
+     /* Entreprise */
+
+     /* contact */
+     .contact{
+          height: auto;
+     }
+     .contact .row{
+          display: flex;
+          flex-direction: column;
+          justify-items: center;
+          justify-content: center;
+     }
+     .footer{
+          display: flex;
+          flex-direction: column-reverse;
+          gap: 10px;
+     }
+}

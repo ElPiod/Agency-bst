@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency bootstrap</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+    
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-------------- Font-awsome script  ------------->
+    <script src="https://kit.fontawesome.com/8f130c8a35.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="#top">
+        <div class="container flex1 align-items-center">
+            <a class="navbar-brand" href="#page-top"><img src="images/navbar-logo.svg" alt="..." class="w-50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header class="header_wrapper">
+        <div class="container my-5">
+            <div class="h2">
+                <p class="h2_2 fst-italic">Welcome To Our Studio!</p>
+            </div>
+            <div class="h1 text-uppercase">
+                <h1 class="h1_1">It's Nice To Meet You</h1>
+            </div>
+            <a class="btn btn-warning btn-xl text-uppercase text-white my-4" href="#services">
+                <p class="text-center my-auto fs-5 fw-bold p-3 px-5">Tell Me More</p>
+            </a>
+        </div>
+    </header>
+    <!-- Services -->
+    <section class="services_wrapper" id="services">
+        <div class="container my-5 text-center">
+            <div class="row text-center">
+                <h2 class="text-uppercase">Service</h2>
+                <p class="fst-italic text-secondary">Lorem ipsum dolor sit amet consectetur</p>
+                <div class="service my-5 d-md-flex justify-content-center align-items-center justify-content-around">
+                    <div class="col-md-4">
+                        <div class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-warning"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </div>
+                        <h5 class="fw-bold my-3">Responsive Design</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
+                            Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-warning"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </div>
+                        <h5 class="fw-bold my-3">Responsive Design</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
+                            Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-warning"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </div>
+                        <h5 class="fw-bold my-3">Web Security</h5>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
+                            Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio-->
+    <section class="portfolio_wrapper bg-light" id="portfolio">
+        <div class="container my-5 text-center">
+            <div class="row text-center">
+                <div class="text-portfolio my-5">
+                    <h2 class="text-uppercase fw-bold">Portfolio</h2>
+                    <p class="fst-italic text-secondary">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                 <div class="flex2">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- card_1 -->
+                        <div class="card" style="width: 20rem;">
+                                <a href="#exampleModal">
+                                    <div class="hover_plus" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <div class="fa_hover"><i class="fa fa-plus fa-3x text-white"></i></div>
+                                    </div>
+                                    <img src="images/1.jpg" alt="image" class="img-fluid">
+                                </a>
+                                <div class="card-body">
+                                  <h4 class="card-title fw-bold">Thereads</h4>
+                                  <p class="card-text fst-italic fw-bold text-secondary">illustration</p>
+                                </div>
+                                <!-- Button trigger modal -->
+                                <div class="modal fade w-100" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <h4 class="card-title fw-bold text-uppercase">Projetname</h4>
+                                            <p class="card-text fst-italic fw-bold text-secondary">illustration</p>
+                                        </div>
+                                        <div class="modal-body-2">
+                                            <img src="images/1.jpg" alt="image" class="img-fluid"><br><br>
+                                            Use this area to describe your project. Lorem ipsum dolor sit amet, 
+                                            consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus 
+                                            dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, 
+                                            maiores repudiandae, nostrum, reiciendis facere nemo!
+                                        </div><br><br>
+                                        <p class="text-center my-0"><span class="fw-bold">Client:</span> Thereads</p>
+                                        <p class="text-center"><span class="fw-bold">Category:</span> illustration</p>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning text-white px-5 p-3 mx-auto" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                        <!-- card 2 -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                            <div class="card" style="width: 20rem;">
+                                    <a href="#exampleModal2">
+                                        <div class="hover_plus" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <div class="fa_hover"><i class="fa fa-plus fa-3x text-white"></i></div>
+                                        </div>
+                                        <img src="images/2.jpg" alt="image" class="img-fluid">
+                                    </a>
+                                    <div class="card-body">
+                                      <h4 class="card-title fw-bold">Explore</h4>
+                                      <p class="card-text fst-italic fw-bold text-secondary">Graphic Design</p>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <div class="modal fade w-100" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <h4 class="card-title fw-bold text-uppercase">Projetname</h4>
+                                                <p class="card-text fst-italic fw-bold text-secondary">illustration</p>
+                                            </div>
+                                            <div class="modal-body-2">
+                                                <img src="images/2.jpg" alt="image" class="img-fluid"><br><br>
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, 
+                                                consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus 
+                                                dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, 
+                                                maiores repudiandae, nostrum, reiciendis facere nemo!
+                                            </div><br><br>
+                                            <p class="text-center my-0"><span class="fw-bold">Client:</span> Explore</p>
+                                            <p class="text-center"><span class="fw-bold">Category:</span> Website Design</p>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning text-white px-5 p-3 mx-auto" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                        <!-- card_3 -->
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                            <div class="card" style="width: 20rem;">
+                                    <a href="#exampleModal3">
+                                        <div class="hover_plus" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                            <div class="fa_hover"><i class="fa fa-plus fa-3x text-white"></i></div>
+                                        </div>
+                                        <img src="images/3.jpg" alt="image" class="img-fluid">
+                                    </a>
+                                    <div class="card-body">
+                                      <h4 class="card-title fw-bold">Finish</h4>
+                                      <p class="card-text fst-italic fw-bold text-secondary">Identity</p>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <div class="modal fade w-100" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <h4 class="card-title fw-bold text-uppercase">Finish</h4>
+                                                <p class="card-text fst-italic fw-bold text-secondary">Identity</p>
+                                            </div>
+                                            <div class="modal-body-2">
+                                                <img src="images/3.jpg" alt="image" class="img-fluid"><br><br>
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, 
+                                                consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus 
+                                                dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, 
+                                                maiores repudiandae, nostrum, reiciendis facere nemo!
+                                            </div><br><br>
+                                            <p class="text-center my-0"><span class="fw-bold">Client:</span> Finish</p>
+                                            <p class="text-center"><span class="fw-bold">Category:</span> Identity</p>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning text-white px-5 p-3 mx-auto" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                        <!-- card_4 -->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                            <div class="card" style="width: 20rem;">
+                                    <a href="#exampleModal4">
+                                        <div class="hover_plus" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                            <div class="fa_hover"><i class="fa fa-plus fa-3x text-white"></i></div>
+                                        </div>
+                                        <img src="images/4.jpg" alt="image" class="img-fluid">
+                                    </a>
+                                    <div class="card-body">
+                                      <h4 class="card-title fw-bold">Lines</h4>
+                                      <p class="card-text fst-italic fw-bold text-secondary">Branding</p>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <div class="modal fade w-100" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <h4 class="card-title fw-bold text-uppercase">Projetname</h4>
+                                                <p class="card-text fst-italic fw-bold text-secondary">illustration</p>
+                                            </div>
+                                            <div class="modal-body-2">
+                                                <img src="images/4.jpg" alt="image" class="img-fluid"><br><br>
+                                                Use this area to describe your project. Lorem ipsum dolor sit amet, 
+                                                consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus 
+                                                dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, 
+                                                maiores repudiandae, nostrum, reiciendis facere nemo!
+                                            </div><br><br>
+                                            <p class="text-center my-0"><span class="fw-bold">Client:</span> Lines</p>
+                                            <p class="text-center"><span class="fw-bold">Category:</span> Branding</p>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning text-white px-5 p-3 mx-auto" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>  
+                    </div>
+                        <!-- card_5 -->
+                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card" style="width: 20rem;">
+                                <a href="#exampleModal5">
+                                    <div class="hover_plus" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                        <div class="fa_hover"><i class="fa fa-plus fa-3x text-white"></i></div>
+                                    </div>
+                                    <img src="images/5.jpg" alt="image" class="img-fluid">
+                                </a>
+                                <div class="card-body">
+                                  <h4 class="card-title fw-bold">Southwesh</h4>
+                                  <p class="card-text fst-italic fw-bold text-secondary">Website Design</p>
+                                </div>
+                                <!-- Button trigger modal -->
+                                <div class="modal fade w-100" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <h4 class="card-title fw-bold text-uppercase">Projetname</h4>
+                                            <p class="card-text fst-italic fw-bold text-secondary">illustration</p>
+                                        </div>
+                                        <div class="modal-body-2">
+                                            <img src="images/5.jpg" alt="image" class="img-fluid"><br><br>
+                                            Use this area to describe your project. Lorem ipsum dolor sit amet, 
+                                            consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus 
+                                            dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, 
+                                            maiores repudiandae, nostrum, reiciendis facere nemo!
+                                        </div><br><br>
+                                        <p class="text-center my-0"><span class="fw-bold">Client:</span> Southwesh</p>
+                                        <p class="text-center"><span class="fw-bold">Category:</span> Website Design</p>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning text-white px-5 p-3 mx-auto" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </div> 
+                    </div>
+                        <!-- card-6 -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                                <a href="#exampleModal6">
+                                    <div class="hover_plus" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        <div class="fa_hover"><i class="fa fa-plus fa-3x text-white"></i></div>
+                                    </div>
+                                    <img src="images/6.jpg" alt="image" class="img-fluid">
+                                </a>
+                                <div class="card-body">
+                                  <h4 class="card-title fw-bold">Window</h4>
+                                  <p class="card-text fst-italic fw-bold text-secondary">Photographic</p>
+                                </div>
+                                <!-- Button trigger modal -->
+                                <div class="modal fade w-100" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <h4 class="card-title fw-bold text-uppercase">Projetname</h4>
+                                            <p class="card-text fst-italic fw-bold text-secondary">illustration</p>
+                                        </div>
+                                        <div class="modal-body-2">
+                                            <img src="images/6.jpg" alt="image" class="img-fluid"><br><br>
+                                            Use this area to describe your project. Lorem ipsum dolor sit amet, 
+                                            consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus 
+                                            dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, 
+                                            maiores repudiandae, nostrum, reiciendis facere nemo!
+                                        </div><br><br>
+                                        <p class="text-center my-0"><span class="fw-bold">Client:</span> Window</p>
+                                        <p class="text-center"><span class="fw-bold">Category:</span> Photographic</p>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning text-white px-5 p-3 mx-auto" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </div> 
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about_wrapper" id="about">
+        <div class="container my-5">
+            <div class="row">
+                <div class="textes-about text-center my-5">
+                    <h2 class="text-uppercase fw-bold">About</h2>
+                    <p class="fst-italic text-secondary">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex3 d-md-flex justify-content-center gap-4">
+                    <div class="about_text text-end">
+                        <div class="tete">
+                            <h4 class="fw-bold">2009 2011</h4>
+                            <h4 class="h4 fw-bold">Our Humble Beginnings</h4>
+                        </div>
+                        <div class="body text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. 
+                            Sunt ut voluptatum eius <br> sapiente, totam reiciendis temporibus qui <br> quibusdam, 
+                            recusandae sit vero unde, sed <br> incidunt et ea quo dolore laudantium <br> consectetur!
+                        </div><br><br>
+                    </div>
+                    <div class="about_img">
+                            
+                    </div>
+                    <div class="borde_space">
+
+                    </div>
+                </div>
+                <div class="flex4 d-md-flex justify-content-center gap-2">
+
+                    <div class="about_img">
+                            
+                    </div><br>
+                    <div class="about_text text-end">
+                        <div class="tete">
+                            <h4 class="fw-bold">March 2011</h4>
+                            <h4 class="h4 fw-bold">An Agency is Born</h4>
+                        </div>
+                        <div class="body text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. 
+                            Sunt ut voluptatum eius <br> sapiente, totam reiciendis temporibus qui <br> quibusdam, 
+                            recusandae sit vero unde, sed <br> incidunt et ea quo dolore laudantium <br> consectetur!
+                        </div><br><br>
+                    </div>
+                    <div class="borde_space1">
+
+                    </div>
+                </div>
+                <div class="flex3 flex_3 d-md-flex justify-content-center gap-4">
+                    <div class="about_text text-end">
+                        <div class="tete">
+                            <h4 class="fw-bold">December 2015</h4>
+                            <h4 class="h4 fw-bold">Transition to Full Service</h4>
+                        </div>
+                        <div class="body text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. 
+                            Sunt ut voluptatum eius <br> sapiente, totam reiciendis temporibus qui <br> quibusdam, 
+                            recusandae sit vero unde, sed <br> incidunt et ea quo dolore laudantium <br> consectetur!
+                        </div><br><br>
+                    </div>
+                    <div class="about_img3">
+                            
+                    </div>
+                    <div class="borde_space">
+
+                    </div>
+                </div>
+                <div class="flex4 d-md-flex justify-content-center gap-2">
+
+                    <div class="about_img4">
+                            
+                    </div><br>
+                    <div class="about_text text-end">
+                        <div class="tete">
+                            <h4 class="fw-bold">July 2020</h4>
+                            <h4 class="h4 fw-bold">Phase Two Expansion</h4>
+                        </div>
+                        <div class="body text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. 
+                            Sunt ut voluptatum eius <br> sapiente, totam reiciendis temporibus qui <br> quibusdam, 
+                            recusandae sit vero unde, sed <br> incidunt et ea quo dolore laudantium <br> consectetur!
+                        </div><br><br>
+                    </div>
+                    <div class="borde_space1">
+
+                    </div>
+                </div>
+                <div class="flex4 d-md-flex justify-content-center gap-2">
+                    <div class="about_img5 text-center text-white">
+                        <div class="text my-4">
+                            <h4>Be Part</h4>
+                            <h4>Of Your</h4>
+                            <h4>Story</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team bg-light" id="team">
+        <div class="container text-center"><br><br>
+            <div class="textes-about text-center">
+                <h2 class="text-uppercase fw-bold">OUR AMAZING TEAM</h2>
+                <p class="fst-italic text-secondary">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+            <div class="row">
+                <div class="teams_all d-flex">
+                    <div class="col-lg-4">
+                        <div class="circle coach1">
+                            
+                        </div>
+                        <div class="caracteristique">
+                            <h4 class="fw-bold">Parveen Anand</h4>
+                            <p class="text-secondary">Lead Designer</p>
+                        </div>
+                        <div class="fas d-flex gap-3 ms-4">
+                            <a href="" class="text-white">
+                                <div class="link"><i class="fa fa-twitter"></i></div>
+                            </a>
+                            <a href=""  class="text-white">
+                                <div class="link"><i class="fa fa-facebook px-1"></i></div>
+                            </a><a href=""  class="text-white">
+                                <div class="link"><i class="fa fa-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="circle coach2">
+                            
+                        </div>
+                        <div class="caracteristique">
+                            <h4 class="fw-bold">Diana Petersen</h4>
+                            <p class="text-secondary">Lead Marketer</p>
+                        </div>
+                        <div class="fas d-flex gap-3 ms-4">
+                            <a href="" class="text-white">
+                                <div class="link"><i class="fa fa-twitter"></i></div>
+                            </a>
+                            <a href=""  class="text-white">
+                                <div class="link"><i class="fa fa-facebook px-1"></i></div>
+                            </a><a href=""  class="text-white">
+                                <div class="link"><i class="fa fa-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="circle coach3">
+                            
+                        </div>
+                        <div class="caracteristique">
+                            <h4 class="fw-bold">Larry Parker</h4>
+                            <p class="text-secondary">Lead Developer</p>
+                        </div>
+                        <div class="fas d-flex gap-3 ms-4">
+                            <a href="" class="text-white">
+                                <div class="link"><i class="fa fa-twitter"></i></div>
+                            </a>
+                            <a href=""  class="text-white">
+                                <div class="link"><i class="fa fa-facebook px-1"></i></div>
+                            </a><a href=""  class="text-white">
+                                <div class="link"><i class="fa fa-linkedin"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="my-5 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aut eaque, laboriosam veritatis, quos <br> non quis ad perspiciatis, 
+                    totam corporis ea, alias ut unde.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Entreprises -->
+    <div class="client bg-white my-5">
+       <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href=""><img src="images/microsoft.svg" alt=""></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href=""><img src="images/google.svg" alt=""></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href=""><img src="images/facebook.svg" alt=""></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href=""><img src="images/ibm.svg" alt=""></a>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <!-- Contact -->
+    <section class="contact" id="contact"><br><br>
+        <div class="textes-contact text-center text-white my-5">
+            <h2 class="text-uppercase fw-bold">Contact Us</h2>
+            <p class="fst-italic text-secondary">Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <div class="container">
+            <form action="" class="row gy-4 flex-nowrap">
+                <div class="col-md-6">
+                    <div class="form_group">
+                        <label for="prenom" class="form-label"></label>
+                        <input type="text" class="form-control p-3 fw-bold" name="prenom" id="prenom" placeholder="Your Name *">
+                    </div>
+                    <div class="form_group">
+                        <label for="email" class="form-label"></label>
+                        <input type="email" class="form-control p-3 fw-bold" name="email" id="email" placeholder="Your number *">
+                    </div>
+                    <div class="form_group">
+                        <label for="number" class="form-label"></label>
+                        <input type="number" class="form-control p-3 fw-bold" name="number" id="number" placeholder="Your Phone *">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form_group">
+                        <label for="message" class="form-label"></label>
+                        <textarea name="message" id="message" class="form-control text-secondary fw-bold p-4" rows="7" placeholder="Your Message *"></textarea>
+                    </div>
+                </div>
+            </form>
+            <div class="button d-flex justify-content-center my-5">
+                <button class="btn btn-warning text-center text-white ps-5 px-5 p-3 fw-bold">SEND MESSAGE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footers my-5">
+            <div class="footer d-flex justify-content-center align-items-center justify-content-around">
+                <div class="left">
+                    <p>Copyright © Your Website 2023</p>
+                </div>
+                <div class="center">
+                    <div class="fas d-flex gap-3">
+                        <a href="" class="text-white">
+                            <div class="link"><i class="fa fa-twitter"></i></div>
+                        </a>
+                        <a href=""  class="text-white">
+                            <div class="link"><i class="fa fa-facebook px-1"></i></div>
+                        </a>
+                        <a href=""  class="text-white">
+                            <div class="link"><i class="fa fa-linkedin"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    Privacy Policy Terms of Use
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- script-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
