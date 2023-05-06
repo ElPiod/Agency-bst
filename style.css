@@ -67,7 +67,15 @@ a{
     position: relative;
     left: -45px;
 }
-
+.btn-close{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+}
+.btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
 /* About */
 .about_img,
 .about_img2,
@@ -107,7 +115,7 @@ a{
 .flex4 .about_img, .about_img4{ 
     margin-left: 290px;
 }
-.flex4 .borde_space1{
+.flex4 .borde_space{
     border-left: 2px solid gainsboro;
     height: 140px;
     position: relative;
