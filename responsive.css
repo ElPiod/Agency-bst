@@ -74,6 +74,8 @@
    }
    .navbar-toggler{
         margin-left: auto;
+        position: relative;
+        bottom: 32px;
         
    }
    /* Portfolio */
