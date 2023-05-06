@@ -112,6 +112,10 @@
      .about_img5{
           margin-top: -180px;
      }
+     .about_img5 .text h4{
+          font-size: 15px;
+          margin-top: -10px;
+     }
      .flex4 .about_img,
      .flex3 .about_img, 
      .about_img3, 
