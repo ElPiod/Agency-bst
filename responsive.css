@@ -66,6 +66,7 @@
     .flex1{
         position: relative;
         top: 12px;
+        margin-bottom: 15px;
     }
    .navbar{
         background-color: var(--bs-dark);
