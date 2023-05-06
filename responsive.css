@@ -171,6 +171,9 @@
           justify-items: center;
           justify-content: center;
      }
+        .button .btn{
+          margin-bottom: 30px;
+    }
      .footer{
           display: flex;
           flex-direction: column-reverse;
