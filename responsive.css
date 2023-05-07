@@ -72,21 +72,15 @@
         background-color: var(--bs-dark);
         height: auto;
    }
-   .navbar-toggler{
-        margin-left: auto;
-        position: relative;
-        top: -35px;   
-   }
+   /* .navbar-toggler{
+   
 
    /* Portfolio */
    .flex2{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
-        position: relative;
-        left: 0px;
-        margin-bottom: 50px;
-        
+        margin-bottom: 50px; 
    }
    /* About */
     .flex3{
@@ -183,20 +177,12 @@
 }
 
 @media screen and (max-width: 320px){
-
-     .navbar-toggler{
-          margin-left: auto;
-          position: relative;
-          top: -32px;   
-     }
-
      .flex2{
           display: grid;
           grid-template-columns: repeat(1, 1fr);
           justify-items: center;
           position: relative;
           left: -12px;
-          margin-bottom: 50px;
+          margin-bottom: 50px; 
      }
-
 }
