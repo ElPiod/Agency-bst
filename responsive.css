@@ -1,15 +1,17 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 820px){
     .navbar{
         background-color: var(--bs-dark);
         height: auto;
      }
+     
      .flex2{
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-          position: relative;
-          left: 0px;
+          justify-items: center;
+          align-items: center;
      }
      /* About */
+
      /* flex 3 */
      .flex3{
           margin-left: -110px;
@@ -56,8 +58,11 @@
           position: relative;
           left: 0px;
      }
-     
-}    
+     /* Contact */
+     .contact .container .row{
+
+     }
+}   
 
 
 

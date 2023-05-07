@@ -9,6 +9,11 @@ a{
 .navbar{
     background-color: var(--bs-dark);
 }
+.navbar-toggler{
+    float: right;
+    position: absolute;
+    right: 0;
+}
 .navbar-toggler:focus{
     outline: none;
     box-shadow: none;
