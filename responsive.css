@@ -21,8 +21,8 @@
           font-size: 14px;
      }
      /* flex-4 */
-     .flex4{
-          margin-top: 110px;
+     .flex4, .flex_3{
+          margin-top: 100px;
       }
      .flex4 .about_img, .about_img4{
           margin-left: 234px
@@ -36,7 +36,7 @@
      .flex4 .about_text .tete .h4{
           font-size: 14px;
      }
-     .flex4 .borde_space1{
+     .flex4 .borde_space{
           position: relative;
           left: -338px;
      }
@@ -75,9 +75,9 @@
    .navbar-toggler{
         margin-left: auto;
         position: relative;
-        bottom: 32px;
-        
+        top: -35px;   
    }
+
    /* Portfolio */
    .flex2{
         display: grid;
@@ -137,7 +137,8 @@
      }
      .flex4 .borde_space{
           top: -180px;
-     }
+          left: 0px; 
+     }    
      /* team */
      .teams_all{
           display: flex;
@@ -179,4 +180,22 @@
           flex-direction: column-reverse;
           gap: 10px;
      }
+}
+
+@media screen and (max-width: 425px) {
+
+     .navbar-toggler{
+        margin-left: auto;
+        position: relative;
+        top: -32px;   
+     }
+     .flex2{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          justify-items: center;
+          position: relative;
+          left: -12px;
+          margin-bottom: 50px;
+     }
+
 }
